@@ -1,0 +1,345 @@
+body{
+	margin:0px;
+	font-family:"Segoe UI", Arial, Verdana;
+	font-size:14px;
+	color:#000;
+	padding-top: 6px;
+	
+	background-color: #f9f9f9; 
+	margin: 0px;"
+	}
+
+div{
+  	box-sizing:border-box;
+	display:table
+	}
+#principal{
+	margin: 0 auto; /* centralizar */
+	width: 1024px; /* 980px define a largura máxima em pixels  */
+	display: table;
+
+}
+
+
+#headercabecalho,#cabecalho{
+	display:table;
+	width:100%;
+	background-color: #fff;
+	/*	background-color: #b8ffef;*/
+	}
+#cabecalho > div{
+	float:left;
+	display:table;
+}
+
+#logo{
+	width:100px;
+	height:80px;
+	padding:6px;
+}
+
+#titulo{
+	width:100%;
+	max-width:700px;
+	/* text-align:center; */
+	padding:6px;
+	height: 3px;
+	} 
+	
+
+#titulo1{
+	width:100%;
+	max-width:700px;
+	text-align:center;
+	}
+	
+#titulo2{
+	width:100%;
+	max-width:688px;
+	text-align:center;
+}
+
+.dotitulo1{
+	font-size: 44px;
+	width:100%;
+	max-width:700px;
+	/* background-color: #99ffe6; */
+	}
+
+.dotitulo2{
+	font-size:22px;
+	width:100%;
+	max-width:688px;
+	padding:6px;
+	/* background-color:#99ffe6; */
+	/*border : 1px #3385ff solid;*/
+}
+#corpo1{
+	width:100%;
+	max-width:700px;
+	text-align:center;
+	}
+.docorpo1{
+	font-size: 44px;
+	width:100%;
+	max-width:700px;
+	/* background-color: #99ffe6; */
+	}
+
+
+#contato{
+	width: 220PX; 
+	padding:6px; 
+	/* background-color: #ffff00; */
+	}
+
+#contato_zap{
+	font-size: 22px;
+	width:100%;
+	max-width:220px;
+	height:50px;
+	/* background-color: #99ffe6; */
+	/*border : 1px #3385ff solid;*/
+}
+#contato_fone{
+	font-size: 22px;
+	width:100%;
+	max-width:220px;
+	height:50px;
+	/* background-color: #99ffe6; */
+	/* border : 1px #3385ff solid; */
+	}
+
+#menu > ul{
+	list-style:none;
+	height:inherit;
+	margin-top:6px;
+	/*margin-left:-40px;*/
+	
+}
+#menu > ul > li{
+	width: 100px;
+	float:left;
+	height:inherit;
+	text-align: center;
+	
+}
+#menu > ul > li > a:link,#menu > ul > li > a:visited{
+	color:#f00;
+	font-size:20px;
+	padding:6px 20px 6px 20px;
+	color:#fff;
+	text-decoration:none
+	
+}
+/*
+#menu > ul > li > a:hover{
+	background-color:#2d89ef
+}*/
+
+h1{
+	text-align: center;
+}
+	
+h2{
+	text-align: center;
+}
+#menu{
+	width:inherit;
+	background-color: #0207a3; /* #7f1734;  #ff6633;  #f86f29;  #2b5797;*/
+	height:19px;
+}
+
+div#premiere{
+	/* CHAMADA */
+	display:table;
+	float:left;
+	background-color: #ffffff;
+	width: inherit;
+	height: 320px;
+	color: blue;
+	padding:10px;
+	/* border:solid 1px #264f51; */ /*#2985e2;*/
+	box-sizing: border-box;
+	/* border-radius: 5px; */
+	margin-bottom: 1px;
+}
+
+.linha{
+	width:100%;
+	/* background-color:#99ffe6; */
+	}
+.linha > div{
+	width: 25%;  /*33.33%*/
+	border: solid 1px #ccc;
+	float:left;
+	text-align:Center;
+	padding:10px;
+	min-height:100px;
+	border-radius: 5px;
+	/* background-color:#99ffe6; */
+}
+
+#quadro{
+	display: table;
+	/* border:solid 1px #264f51; */ /*#2985e2;*/
+	box-sizing: border-box;
+	background-image: url(http://cetic.br/media/imgs/tic/TICsaude-big.jpg);
+	/* border-radius: 5px; */
+	margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: solid 10px #212669;	
+	
+}	
+
+
+#quadro > div {
+	float:left;
+
+}
+
+.quadro{
+	/* TEXTO PROMOCIONAL */
+	float:left;
+	width:100%;
+	max-widt: 1024px;
+	padding: 5px;
+	/* height: 220px; */
+	color: #00FFFF;
+	background-color: #0207a3;
+
+	
+	} 
+
+#quadro1{
+	height:460px;
+	/* background-image: url(http://cetic.br/media/imgs/tic/TICsaude-big.jpg); */
+	/* background-color: #99ffe6; */
+	/* border:solid 2px #264f51; */ /*#2985e2;*/
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding:15px;
+	margin:5px;
+	}	
+
+#quadro12{
+	background-color: #6babd9;
+	border: solid 2px #ffffff; /*#2985e2;*/
+	box-sizing: border-box;
+	/* border-radius: 5px; */
+	padding:15px;
+	margin:5px;
+	box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+	}
+	
+.quadro1 > div{
+	float:left;
+	width:50%;
+	max-width:485px;
+	height:100%;
+	margin:5px;
+	}
+
+.quadro12 {
+	color:#000;
+	width:50%;
+	max-width:490px;
+	/* border:solid 2px #264f51; */ /*#2985e2;*/
+	box-sizing: border-box;
+	/* border-radius: 5px; */
+	margin:5px;
+	height:460px;
+	
+	
+	
+	
+	}
+	
+.quadro12 > div > chamada-form1{
+	width:50%;
+	height:100%;
+	padding:5px;
+	border:solid 2px #264f51; /*#2985e2;*/
+    box-sizing: border-box;
+    border-radius: 5px;
+	margin:5px;
+	padding:5px;
+	}
+	
+.chamada-form1{
+	width:100%;
+	min-width: 465px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	height: 150px;
+	background-color: #6babd9;
+	box-sizing: border-box;
+	border: solid 1px #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
+}
+
+.supertitle {text-align: center; color: #fff; font-weight: bold; font-size: 22px; }
+.subtitle {	text-align: center; color: #fff; font-size: 22px; }
+
+
+
+.form1{
+	width:100%;
+	font-size: 10px;
+	border:solid 2px #2985e2;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form11{
+	width:100%;
+	/* height:30px; */
+	border:solid 2px #2985e2;
+	box-sizing: border-box;
+	border-radius: 5px;
+	}
+
+.form12{
+	width:100%;
+	min-height:74px;
+	max-height:74px;
+	border:solid 2px #2985e2;
+    box-sizing: border-box;
+    border-radius: 5px;
+	}
+
+.form13{
+	width:30%;
+	border: solid 2px #2985e2;
+    box-sizing: border-box;
+    border-radius: 5px;
+	}
+
+
+
+#botao{
+	text-align: center;
+	/* background-color:  #99ffe6; */ /* #FCC302; */
+	width: 100%;
+	}
+.botaoEnviar{
+    width: 100%;
+    text-align: center;
+	padding-top: 15px;
+	font-size: 22px;
+	/*
+    padding: 15px 20px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+  */ 
+}
+#rodape{
+	width:inherit;
+	background-color: #212669; /*#0a1a31;*/
+	height:75px;
+	color:#fff;
+	padding:10px;
+	text-align:center;
+}
